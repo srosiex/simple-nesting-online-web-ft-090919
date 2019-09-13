@@ -82,7 +82,8 @@ def adding_matz
         }
      }
 
-programmer_hash.shift[:yukihiro_matsumoto] = {}
+programmer_hash.merge.shift :yukihiro_matsumoto] = {}
+programmer_hash
 end
 
 def changing_alan
