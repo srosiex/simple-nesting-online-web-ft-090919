@@ -105,13 +105,13 @@ def changing_alan
 		 # { a: 1, b: 2 }.map { |k, v| [ k, v * 2 ] }.to_h
 	 # => { a: 2, b: 4 }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-		  programmer_hash[:alan_kay][:known_for] = "GUI"
-programmer_hash
-end
+		
      alans_new_info = "GUI"
-
-
-end
+		 programmer_hash[:alan_kay][:known_for] = "GUI"
+		   programmer_hash
+		 
+		 end
+changing_alan
 
 def adding_to_dennis
 	programmer_hash =
