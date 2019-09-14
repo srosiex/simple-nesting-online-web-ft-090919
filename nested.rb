@@ -108,7 +108,8 @@ def changing_alan
 		 programmer_hash.map do |k, v|
 			 if v == :known_for
 				 "C" <=> "GUI"
-
+programmer_hash
+end
      alans_new_info = "GUI"
 
 
