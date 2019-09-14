@@ -105,7 +105,7 @@ def changing_alan
 		 # { a: 1, b: 2 }.map { |k, v| [ k, v * 2 ] }.to_h
 	 # => { a: 2, b: 4 }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
-		 programmer_hash.map do |k, v| 
+		 programmer_hash.map do |k, v|
 			 if v == :known_for
 				 "C" <=> "GUI"
      alans_new_info = "GUI"
